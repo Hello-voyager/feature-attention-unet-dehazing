@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4080 Laptop GPU",
+  "test_split": "test",
+  "image_size": 256,
+  "baseline_checkpoint": "D:\\Python\\PythonProject8\\runs\\baseline\\best.pth",
+  "attention_checkpoint": "D:\\Python\\PythonProject8\\runs\\attention\\best.pth",
+  "baseline": {
+    "count": 500,
+    "psnr_mean": 27.623054581738145,
+    "psnr_std": 3.030605031602161,
+    "ssim_mean": 0.9550326302051544,
+    "ssim_std": 0.020166645361461562,
+    "parameters": 22019459,
+    "parameters_million": 22.019459,
+    "inference_ms_mean": 13.579562399769202,
+    "inference_ms_std": 5.8582142758884075
+  },
+  "attention": {
+    "count": 500,
+    "psnr_mean": 26.741599926060932,
+    "psnr_std": 2.661038956763242,
+    "ssim_mean": 0.9482879642248153,
+    "ssim_std": 0.0216022530403332,
+    "parameters": 22079438,
+    "parameters_million": 22.079438,
+    "inference_ms_mean": 19.482219798956066,
+    "inference_ms_std": 0.8259383885064685
+  },
+  "improvement": {
+    "delta_psnr_mean": -0.8814546556772136,
+    "delta_ssim_mean": -0.006744665980339071,
+    "delta_parameters": 59979,
+    "delta_inference_ms": 5.9026573991868645
+  }
+}
